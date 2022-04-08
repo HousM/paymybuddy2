@@ -1,0 +1,105 @@
+em {
+    display:inline-block;
+    margin-left: 10px;
+    margin-top: 5px;
+    padding: 5px;
+    text-align: justify;
+    background: linear-gradient(to right, rgb(0,128,0),rgb(0,255,0));
+    color: white;
+    border-radius:5px ;
+}
+
+#liens {
+    padding: 5px;
+    margin-right: 10px;
+}
+#entete {
+    display: flex;
+    justify-content: space-around;
+}
+a {
+    margin: 5px;
+}
+#pages {
+    padding-left: 10px;
+    margin-right: 375px;
+    margin-left: 375px;
+    background-color: silver;
+
+}
+.connection {
+    margin-right: 55px;
+    background-color:#0d6efd ;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+}
+#send {
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 205px;
+    display: flex;
+    justify-content: space-around;
+}
+#bank\&delete {
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 170px;
+    padding-right: 230px;
+    display: flex;
+    justify-content: space-around;
+}
+#error {
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 170px;
+    padding-right: 180px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#pay {
+    background-color: silver;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-left: 540px;
+    margin-right: 540px;
+
+}
+#pay button {
+    margin-left: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: justify;
+    background: linear-gradient(to right, rgb(0,128,0),rgb(0,255,0));
+    color: white;
+    border-radius:5px ;
+}
+#transactions {
+    margin-top: 100px;
+    margin-left: 540px;
+}
+#table {
+    display: flex;
+    justify-content: space-around;
+    border: black solid;
+    margin-left: 540px;
+    margin-right: 540px;
+}
+th {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: rgb(0,200,0);
+    width: 870px;
+    padding-left: 100px;
+}
+td {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 870px;
+    text-align: center;
+}
+

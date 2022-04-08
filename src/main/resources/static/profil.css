@@ -1,0 +1,76 @@
+#entete {
+    display: flex;
+    justify-content: space-around;
+}
+h5 {
+    margin-top: 100px;
+    margin-left: 540px;
+}
+em {
+    display:inline-block;
+    margin-left: 10px;
+    margin-top: 5px;
+    padding: 5px;
+    text-align: justify;
+    background: linear-gradient(to right, rgb(0,128,0),rgb(0,255,0));
+    color: white;
+    border-radius:5px ;
+}
+#pages {
+    padding-left: 10px;
+    margin-right: 375px;
+    margin-left: 375px;
+    background-color: silver;
+}
+a {
+    margin: 5px;
+}
+#table-firstname {
+    margin-top: 50px;
+    display: inline-flex;
+    width: 400px;
+    background-color: black;
+    border: black solid;
+    margin-left: 200px;
+
+}
+#table-lastname {
+    margin-top: 50px;
+    display: inline-flex;
+    width: 400px;
+    background-color: black;
+    border: black solid;
+    margin-left: 200px;
+
+}
+#table-email {
+    margin-top: 50px;
+    display: inline-flex;
+    width: 400px;
+    background-color: black;
+    border: black solid;
+    margin-left: 200px;
+
+}
+th {
+    width: 870px;
+    padding-left: 10px;
+}
+#tbody {
+    display: flex;
+    justify-content: space-around;
+    border: black solid;
+    margin-left: 540px;
+    margin-right: 540px;
+}
+td {
+    text-align: center;
+    width: 870px;
+    background-color: silver;
+}
+#data {
+    border: black solid;
+    margin-left: 540px;
+    margin-right: 540px;
+    padding-bottom: 50px;
+}
