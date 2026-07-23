@@ -49,7 +49,7 @@ public class User implements Serializable, UserDetails {
 	private float balance;
 
 	@OneToOne()
-	@JoinColumn(name = "role_id", referencedColumnName = "role_id")
+	@JoinColumn(name = "role_id", referencedColumnName = "connect_id")
 	private Connect connect;
 
 	@OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL, orphanRemoval = true)
